@@ -1,0 +1,72 @@
+
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+#header{
+    height: 120px;
+    background-color: bisque;
+    opacity: .6;
+
+}
+
+.all{
+    width: 50%;
+    height: 140px;
+    float: left;
+}
+
+.b1{
+    background-color: red;
+    text-align: center;
+    font-size: 100px;
+
+}
+
+.b2{
+    background-color: blue;
+    text-align: center;
+    font-size: 100px;
+}
+.b3{
+    background-color: yellow;
+    text-align: center;
+    font-size: 100px;
+}
+.b4{
+    background-color: green;
+    text-align: center;
+    font-size: 100px;
+}
+
+.clf{
+    clear: both;
+}
+
+@media (max-width:768px){
+    .all{
+        width: 100%;
+    }
+}
+
+
+/*
+    .b1{
+        @media screen and  (max width:768px){
+
+        width: 100%;
+    }
+    .b2{
+        width: 100%;
+    }
+    .b3{
+        width: 100%;
+    }
+    .b4{
+        width: 100%;
+    }
+*/
