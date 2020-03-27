@@ -1,0 +1,112 @@
+*{
+    font-family: monospace;
+}
+body{
+    background-size: cover ;
+}
+.loginctr{
+    width: 400px; 
+    margin-top: 100px;
+}
+
+.frm{
+    margin: auto;
+    
+}
+.frm:focus{
+    outline: none;
+}
+
+.submit{
+	background-color: rgb(43, 161, 216) ;
+	width: 100% ;
+	border-radius: 20px ;
+	outline: none ; 
+	border:  none;
+	margin-top: 40px ;
+	height: 40px ;
+	font-size: 18px ;
+    color: #fff ;    
+    border: none;
+
+}
+
+.submit:hover
+{
+	cursor: pointer;
+	background-color: #ffffff ; 
+    color: #000 ;
+    outline: none;
+    border: none;
+
+}
+
+.submit:focus
+{
+	outline: none;
+}
+
+.email{
+    border-radius: 20px ;
+    outline: none ; 
+
+}
+
+.pswd{
+    border-radius: 20px ;
+    outline: none ; 
+
+}
+
+.pswd:focus .email:focus {
+    border: non;
+}
+
+.avatar{
+    height: 80px;
+    width: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.avatar:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    height: 80px;
+    width: 80px;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+.reglink{
+    margin-top: 50px;
+    color: #000;
+}
+
+.reglink:hover{
+    margin-top: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.reg{
+    margin-top: 25px;
+}
+
+
+

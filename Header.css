@@ -1,0 +1,77 @@
+
+
+
+.ctr{
+    position: fixed;
+    display: inline;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    min-width: 100%;
+}
+
+
+
+.hdr{
+    display: inline;
+    position: fixed;
+
+
+
+}
+
+.col{
+    display: inline;
+    
+
+}
+
+
+ol{
+    margin-top: 20px;
+
+
+}
+
+
+ol li{
+    display: inline;
+    margin-left: 19px; 
+}
+
+.medicare{
+    color: rgb(43, 161, 216);
+    margin-left: 30px;
+
+
+}
+
+.btn{
+    background: none;
+    border : none ;
+    color: rgb(43, 161, 216);
+    font-family: monospace;
+    font-size: 19px;
+    
+
+}
+
+.btn:hover{
+    background-color: rgb(43, 161, 216);
+    color: white;
+}
+
+.btn:focus{
+    border: none;
+    outline: none;
+}
+
+.medicare b{
+color: black;
+}
+
+
+
+.box{
+    background-color: rgb(43, 161, 216);
+    height: 500px;
+}
